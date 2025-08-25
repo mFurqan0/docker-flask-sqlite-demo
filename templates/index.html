@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Docker Practice App</title>
+</head>
+<body>
+    <h1>Messages from Database</h1>
+    <ul>
+        {% for m in messages %}
+            <li>{{ m[0] }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
